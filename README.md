@@ -26,12 +26,10 @@ Utilizeaza functiile send_squanch() si recv_squanch() pentru realizarea functiil
 Utilizeaza functiile send_squanch() si recv_squanch() pentru realizarea functiilor : 
 	send_message() care trimite codat mesajul : HELLOTHERE.
 	recv_messge() care receptioneaza un mesaj pe care il decodifica dupa un algoritm impus si afiseaza fiecare caracter decodat.
-	comm_message() care receptioneaza un mesaj si daca ultima litera din mesaj este P se raspunde codat cu mesajul PICKLERICK si 	daca nu este P se trimite VINDICATORS.
+	comm_message() care receptioneaza un mesaj si daca ultima litera din mesaj este P se raspunde codat cu mesajul PICKLERICK si daca nu este P se trimite VINDICATORS.
 
 -Task3-
 Utilizeaza functiile send_squanch2() dupa un alt algoritm prin care 2 caractere c1, c2 se codifica intr-un alt caracter si care se transmite si decode_squanch2() care realizeaza transformarea caracterului codificat anterior in cele 2 caractere continute.
-
-
 
 -hunt.c-
 
