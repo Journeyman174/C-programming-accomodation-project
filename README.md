@@ -1,0 +1,51 @@
+# C-programming-accomodation-project
+
+-gates.c-
+
+-Task1-
+Functia get_bit primeste ca parametri de intrare un numar pe 64 de biti si pozitia bitului care este furnizat programului apelant.
+Fuctia flip_bit intoarce numarul primit cu bitul de pozitia i, inversat. S-a folosit operatorul XOR dintre numar si masca corespunzatoare.
+Fuctia activate_bit pune bitul de pe pozitia i a nr primit valoarea logica 1.
+Functia clear_bit pune pe pozitia i a nr primit valoarea 0.
+
+-Task2 -
+Implementeaza portile logice nand_gate- NAND -and_gate - AND, not_gate -NOT, or_gate -OR si xor_gate- XOR.
+
+-Task3-
+Implementarea unui sumator complet pe bit, full adder si un sumator complet pe 8 biti care utilizeaza sumatorul full adder pentru a realiza suma a 2 numere pe 64 de biti. 
+
+-communication.c-
+
+-Task1-
+Utilizeaza functiile send_squanch() si recv_squanch() pentru realizarea functiilor : 
+	send_byte_message() care trimite 4 caractere codate dupa un algoritm propus : A-1, B-2,..., Z-26.
+	recv_byte_message() care receptioneaza 5 caractere codate anterior si le afiseaza cu functia fprintf.
+	comm_byte () care receptioneaza un mesaj format din 10 caractere si le retransmite de cate 2 ori.
+	
+- Task2-
+Utilizeaza functiile send_squanch() si recv_squanch() pentru realizarea functiilor : 
+	send_message() care trimite codat mesajul : HELLOTHERE.
+	recv_messge() care receptioneaza un mesaj pe care il decodifica dupa un algoritm impus si afiseaza fiecare caracter decodat.
+	comm_message() care receptioneaza un mesaj si daca ultima litera din mesaj este P se raspunde codat cu mesajul PICKLERICK si 	daca nu este P se trimite VINDICATORS.
+
+-Task3-
+Utilizeaza functiile send_squanch2() dupa un alt algoritm prin care 2 caractere c1, c2 se codifica intr-un alt caracter si care se transmite si decode_squanch2() care realizeaza transformarea caracterului codificat anterior in cele 2 caractere continute.
+
+
+
+-hunt.c-
+
+-Task1-
+Contine:
+	Functia find_spell() care primeste o valoarea pe 64 de biti ce codifica o valoare pe 16 biti care incepe cu o secventa de 5 caractere de biti 1 si intoarce valoare continuta. 
+	Functia find_key() care realizeaza o incapsulare a mesajului de 16 biti care are dupa o succesiune de 3 biti consecutivi de 1 intr-o variabila de memorie de 64 de biti si intoarce valoare continuta. 
+	Functia decrypt_spell() care realizeaza o operatie XOR intre o valoare criptata si o valoare ce contine cheia de decriptare.
+
+-Task2-
+Contine functia choose_sword() care genereaza o valoare pe 64 de biti utilizand un sablon indica : type sunt primii 4 cei mai semnificativi biti si value care sunt 16 cei mai putini semnificativi biti. Value se determina rezolvand 2 ecuatii logice indicate.
+
+-Task3-
+Contine functiile
+	trial_of_the_grasses() care formeaza o valoare pe 32 de biti din 2 valori pe 16 biti determinate de conditiile impuse 
+	trial_of_forrest_eyes () care pe baza unei valori de 64 de biti genereaza o valoare pe 8 biti in functie de mai multe sabloane de biti impuse.
+	trial_of_the_dreams () care pe baza unei valori de 32 de biti intoarce o valoare de 8 biti reprezentand distanta dintre 2 biti de 1 continuti.
