@@ -3,6 +3,7 @@
 -gates.c-
 
 -Task1-
+
 Functia get_bit primeste ca parametri de intrare un numar pe 64 de biti si pozitia bitului care este furnizat programului apelant.
 Fuctia flip_bit intoarce numarul primit cu bitul de pozitia i, inversat. S-a folosit operatorul XOR dintre numar si masca corespunzatoare.
 Fuctia activate_bit pune bitul de pe pozitia i a nr primit valoarea logica 1.
@@ -18,6 +19,7 @@ Implementarea unui sumator complet pe bit, full adder si un sumator complet pe 8
 
 -Task1-
 Utilizeaza functiile send_squanch() si recv_squanch() pentru realizarea functiilor : 
+
 	send_byte_message() care trimite 4 caractere codate dupa un algoritm propus : A-1, B-2,..., Z-26.
 	recv_byte_message() care receptioneaza 5 caractere codate anterior si le afiseaza cu functia fprintf.
 	comm_byte () care receptioneaza un mesaj format din 10 caractere si le retransmite de cate 2 ori.
